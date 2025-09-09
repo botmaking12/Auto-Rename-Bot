@@ -47,7 +47,7 @@ async def tutorial(bot, message):
             ),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⚡ Tutorial", url="https://t.me/AshuSupport")]]
+                [[InlineKeyboardButton("⚡ Tutorial", url="https://t.me/tushusuportgrupe")]]
             ),
         )
     except Exception as e:
@@ -128,3 +128,4 @@ async def send_msg(user_id, message):
     except Exception as e:
         logger.error(f"{user_id} : {e}")
         return 500
+
